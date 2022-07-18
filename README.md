@@ -9,7 +9,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 3) Project Goal
 4) Project Roadmap
 
-===###===###===###===###===###===###===###===###===###===###===###===###===###===###===###===
+===###===###===###===###===###===
 
 **<u>About Project Concept:</u>**
 
@@ -19,7 +19,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 
 - The mod aims to provide a fun way of dealing with armor accessories, while giving the player freedom of choice to craft their trinkets in an optimally personalised manner, and at the same time providing functionality for the player's adventures.
 
-===###===###===###===###===###===###===###===###===###===###===###===###===###===###===###===
+===###===###===###===###===###===
 
 <u><b>Working Principles:</b></u>
 
@@ -30,7 +30,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 - Compatibility with other major mods is planned.
 - Any custom ores or materials added natively will be OreDict-friendly.
 
-===###===###===###===###===###===###===###===###===###===###===###===###===###===###===###===
+===###===###===###===###===###===
 
 **<u>Project Goal:</u>**
 
@@ -38,7 +38,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 - To implement support with other major mods and the resources they add, in order to expand the applications of the trinkets.
 - Most importantly, a learning experience for me. This is my first project, an ambitious one too, but I do wish to take it as far as I can.
 
-===###===###===###===###===###===###===###===###===###===###===###===###===###===###===###===
+===###===###===###===###===###===
 
 **<u>Project Roadmap:</u>**
 
