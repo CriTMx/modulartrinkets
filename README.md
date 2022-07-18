@@ -1,6 +1,8 @@
+<h1>Modular Trinkets</h1>
+
 A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge W.I.P. at the moment.
 
-<h1><b> Index: </b></h1>
+<b> Index: </b>
 
 1) About Project Concept
 2) Working Principles
