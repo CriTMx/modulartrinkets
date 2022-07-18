@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.01 alpha'
+version = '1.18.1-0.0.1-alpha'
 group = 'com.critmx.modulartrinkets' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Modular Trinkets'
 
@@ -149,7 +149,7 @@ jar {
         attributes([
                 "Specification-Title"     : "Modular Trinkets",
                 "Specification-Vendor"    : "CriTMx",
-                "Specification-Version"   : "0.01 alpha", // We are version 1 of ourselves
+                "Specification-Version"   : "1.18.1-0.0.1-alpha", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "CriTMx",
