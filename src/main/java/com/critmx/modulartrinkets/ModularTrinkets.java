@@ -18,9 +18,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("modulartrinkets")
+@Mod(ModularTrinkets.MOD_ID)
 public class ModularTrinkets
 {
+    public static final String MOD_ID = "modulartrinkets";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
