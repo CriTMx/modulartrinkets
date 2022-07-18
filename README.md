@@ -44,7 +44,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 
 _(A ✓ (checkmark) indicates a goal that has been fully met. A ⦿ indicates a bug to be fixed in the mentioned goal. Incomplete goal otherwise.) (This section will be regularly updated with more goals, completed goals, bugged goals and so on.)_
 
-- Implement mod base.
+- ✓ Implement mod base.
 - Implement automation of texture generation for trinkets of varied material bases.
 - Implement automation of texture generation for embedded gems in trinkets.
 - Implement basic armor effects for each trinket.
