@@ -1,5 +1,6 @@
 package com.critmx.modulartrinkets;
 
+import com.critmx.modulartrinkets.client.BlockRegister;
 import com.critmx.modulartrinkets.client.ItemRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +32,7 @@ public class ModularTrinkets
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemRegister.register(eventBus);
+        BlockRegister.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::enqueueIMC);
