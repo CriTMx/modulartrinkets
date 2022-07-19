@@ -1,7 +1,7 @@
 package com.critmx.modulartrinkets;
 
 import com.critmx.modulartrinkets.client.BlockRegister;
-import com.critmx.modulartrinkets.client.ItemRegister;
+import com.critmx.modulartrinkets.common.items.ItemRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -67,6 +67,11 @@ public class ModularTrinkets
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
+
+    /*@SubscribeEvent
+    public void registerItemColors(ColorHandlerEvent.Item event){
+        event.getItemColors().register(myItemColor, coloredItem1, coloredItem2, ...);
+    }*/
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
     // Event bus for receiving Registry Events)

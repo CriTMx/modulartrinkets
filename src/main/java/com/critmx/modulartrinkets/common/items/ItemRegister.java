@@ -1,4 +1,4 @@
-package com.critmx.modulartrinkets.client;
+package com.critmx.modulartrinkets.common.items;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
 import net.minecraft.world.item.CreativeModeTab;
@@ -14,12 +14,14 @@ public class ItemRegister {
 
 
     public static final RegistryObject<Item>
-            CROWNBASE = ITEMS.register("crownbase", ()->new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            CROWNBASE = ITEMS.register("crownbase", ()->new Item(new Item.Properties().tab(MTCreativeTab.MT_TAB)));
 
 
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
     }
+
+
 
 }
