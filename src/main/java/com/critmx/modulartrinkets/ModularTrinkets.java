@@ -1,6 +1,6 @@
 package com.critmx.modulartrinkets;
 
-import com.critmx.modulartrinkets.client.BlockRegister;
+import com.critmx.modulartrinkets.common.blocks.BlockRegister;
 import com.critmx.modulartrinkets.common.items.ItemRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;

@@ -1,4 +1,4 @@
-package com.critmx.modulartrinkets.client;
+package com.critmx.modulartrinkets.common.blocks;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
 import net.minecraft.world.level.block.Block;
