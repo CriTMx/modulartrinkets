@@ -14,5 +14,7 @@
       "item": "minecraft:white_wool"
     }
   },
-  "result": "modulartrinkets:crownbase"
+  "result": {
+    "item": "modulartrinkets:crownbase"
+  }
 }
