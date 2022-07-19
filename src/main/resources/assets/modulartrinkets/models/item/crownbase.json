@@ -2,6 +2,7 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "modulartrinkets:item/crownbase"
+    "layer0": "modulartrinkets:item/crownbase_layer0.png",
+    "layer1": "modulartrinkets:item/crownbase_layer1.png"
   }
 }
