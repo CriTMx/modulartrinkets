@@ -1,5 +1,6 @@
 package com.critmx.modulartrinkets;
 
+import com.critmx.modulartrinkets.client.ItemRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,19 +24,18 @@ import java.util.stream.Collectors;
 public class ModularTrinkets
 {
     public static final String MOD_ID = "modulartrinkets";
-    // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
     public ModularTrinkets() {
-        // Register the setup method for modloading
+
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ItemRegister.register(eventBus);
+
         eventBus.addListener(this::setup);
-        // Register the enqueueIMC method for modloading
         eventBus.addListener(this::enqueueIMC);
-        // Register the processIMC method for modloading
         eventBus.addListener(this::processIMC);
 
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
