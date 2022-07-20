@@ -23,6 +23,9 @@ public class BlockRegister {
 
     public static final RegistryObject<Block> TRINKETANVIL = registerBlock("trinketanvil",()->new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), MTCreativeTab.MT_TAB);
 
+
+
+    
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
