@@ -24,7 +24,8 @@ public class BlockRegister {
 
 
     public static final RegistryObject<Block> TRINKETANVIL = registerBlock
-            ("trinketanvil", ()->new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+
+            ("trinketanvil", ()->new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().of(Material.METAL).strength(0.3f).requiresCorrectToolForDrops().dynamicShape()),
                     MTCreativeTab.MT_TAB);
 
 
