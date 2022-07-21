@@ -21,7 +21,9 @@ public class BlockRegister {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ModularTrinkets.MOD_ID);
 
 
-    public static final RegistryObject<Block> TRINKETANVIL = registerBlock("trinketanvil",()->new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), MTCreativeTab.MT_TAB);
+    public static final RegistryObject<Block> TRINKETANVIL = registerBlock
+            ("trinketanvil", ()->new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+                    MTCreativeTab.MT_TAB);
 
 
 
