@@ -1,77 +1,10 @@
 {
-  "multipart": [
-    {
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil"
-      }
+  "variants": {
+    "": {
+      "model": "modulartrinkets:block/trinketanvil"
     },
-    {
-      "when": {
-        "north": "true"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil"
-      }
-    },
-    {
-      "when": {
-        "east": "true"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "south": "true"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil"
-      }
-    },
-    {
-      "when": {
-        "west": "true"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "north": "false"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil"
-      }
-    },
-    {
-      "when": {
-        "east": "false"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil"
-      }
-    },
-    {
-      "when": {
-        "south": "false"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "west": "false"
-      },
-      "apply": {
-        "model": "modulartrinkets:block/trinketanvil",
-        "y": 270
-      }
+    "#": {
+      "model": "modulartrinkets:block/trinketanvil"
     }
-  ]
+  }
 }

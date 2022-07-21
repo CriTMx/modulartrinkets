@@ -2,6 +2,8 @@ package com.critmx.modulartrinkets;
 
 import com.critmx.modulartrinkets.common.blocks.BlockRegister;
 import com.critmx.modulartrinkets.common.items.ItemRegister;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -10,6 +12,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
@@ -34,18 +37,25 @@ public class ModularTrinkets
         ItemRegister.register(eventBus);
         BlockRegister.register(eventBus);
 
-        eventBus.addListener(this::setup);
+        eventBus.addListener(this::commonSetup);
+        eventBus.addListener(this::clientSetup);
         eventBus.addListener(this::enqueueIMC);
         eventBus.addListener(this::processIMC);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
+    private void commonSetup(final FMLCommonSetupEvent event)
     {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+    }
+
+
+    private void clientSetup(final FMLClientSetupEvent event)
+    {
+        ItemBlockRenderTypes.setRenderLayer(BlockRegister.TRINKETANVIL.get(), RenderType.translucent());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

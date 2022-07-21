@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -23,7 +24,7 @@ public class BlockRegister {
 
 
     public static final RegistryObject<Block> TRINKETANVIL = registerBlock
-            ("trinketanvil", ()->new GlassBlock(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
+            ("trinketanvil", ()->new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
                     MTCreativeTab.MT_TAB);
 
 
