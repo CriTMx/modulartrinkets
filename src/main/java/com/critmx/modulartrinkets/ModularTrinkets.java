@@ -78,11 +78,6 @@ public class ModularTrinkets
         LOGGER.info("HELLO from server starting");
     }
 
-    /*@SubscribeEvent
-    public void registerItemColors(ColorHandlerEvent.Item event){
-        event.getItemColors().register(myItemColor, coloredItem1, coloredItem2, ...);
-    }*/
-
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
