@@ -1,3 +1,4 @@
+/*
 package com.critmx.modulartrinkets.common.blockentities;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
@@ -20,3 +21,4 @@ public class BlockEntityRegister {
             );
 
 }
+*/

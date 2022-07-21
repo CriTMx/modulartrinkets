@@ -9,7 +9,7 @@ public class MTCreativeTab
     public static final CreativeModeTab MT_TAB = new CreativeModeTab("mtcreativetab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(CrownBase.CROWNBASE.get());
+            return new ItemStack(ItemRegister.CROWNBASE.get());
         }
     };
 

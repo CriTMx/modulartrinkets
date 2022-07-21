@@ -12,6 +12,9 @@ public class ItemRegister {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ModularTrinkets.MOD_ID);
 
+    public static final RegistryObject<Item>
+            CROWNBASE = ITEMS.register("crownbase", ()->new Item(new Item.Properties().tab(MTCreativeTab.MT_TAB).stacksTo(1)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

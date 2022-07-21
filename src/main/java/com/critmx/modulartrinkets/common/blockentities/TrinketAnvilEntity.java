@@ -1,3 +1,4 @@
+/*
 package com.critmx.modulartrinkets.common.blockentities;
 
 import net.minecraft.core.BlockPos;
@@ -81,3 +82,5 @@ public class TrinketAnvilEntity extends BlockEntity implements MenuProvider {
 
 
 }
+
+ */
