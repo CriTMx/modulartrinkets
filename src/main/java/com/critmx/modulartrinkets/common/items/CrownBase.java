@@ -6,6 +6,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class CrownBase extends ItemRegister {
 
     public static final RegistryObject<Item>
-            CROWNBASE = ITEMS.register("crownbase", ()->new Item(new Item.Properties().tab(MTCreativeTab.MT_TAB)));
+            CROWNBASE = ITEMS.register("crownbase", ()->new Item(new Item.Properties().tab(MTCreativeTab.MT_TAB).stacksTo(1)));
+
 
 }
