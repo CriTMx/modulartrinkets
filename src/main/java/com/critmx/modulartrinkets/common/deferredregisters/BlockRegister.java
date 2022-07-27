@@ -21,6 +21,12 @@ public class BlockRegister {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ModularTrinkets.MOD_ID);
 
+
+    public static final RegistryObject<Block> TRINKETANVIL = registerBlock
+
+            ("trinketanvil", ()->new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().of(Material.METAL).strength(0.3f).requiresCorrectToolForDrops().dynamicShape()),
+                    MTCreativeTab.MT_TAB);
+
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);

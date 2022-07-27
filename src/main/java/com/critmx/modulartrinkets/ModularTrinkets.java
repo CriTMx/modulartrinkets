@@ -38,8 +38,6 @@ public class ModularTrinkets
 
         ItemRegister.register(eventBus);
         BlockRegister.register(eventBus);
-        TrinketAnvil.register(eventBus);
-        CrownBase.register(eventBus);
 
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
