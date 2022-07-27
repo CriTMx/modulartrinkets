@@ -1,7 +1,9 @@
 package com.critmx.modulartrinkets;
 
-import com.critmx.modulartrinkets.common.blocks.BlockRegister;
-import com.critmx.modulartrinkets.common.items.ItemRegister;
+import com.critmx.modulartrinkets.common.blocks.TrinketAnvil;
+import com.critmx.modulartrinkets.common.deferredregisters.BlockRegister;
+import com.critmx.modulartrinkets.common.deferredregisters.ItemRegister;
+import com.critmx.modulartrinkets.common.items.CrownBase;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
@@ -36,6 +38,8 @@ public class ModularTrinkets
 
         ItemRegister.register(eventBus);
         BlockRegister.register(eventBus);
+        TrinketAnvil.register(eventBus);
+        CrownBase.register(eventBus);
 
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
@@ -55,7 +59,7 @@ public class ModularTrinkets
 
     private void clientSetup(final FMLClientSetupEvent event)
     {
-        ItemBlockRenderTypes.setRenderLayer(BlockRegister.TRINKETANVIL.get(), RenderType.translucent());
+
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

@@ -1,14 +1,13 @@
-package com.critmx.modulartrinkets.common.blocks;
+package com.critmx.modulartrinkets.common.deferredregisters;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
-import com.critmx.modulartrinkets.common.items.ItemRegister;
+import com.critmx.modulartrinkets.common.deferredregisters.ItemRegister;
 import com.critmx.modulartrinkets.common.items.MTCreativeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,16 +21,7 @@ public class BlockRegister {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ModularTrinkets.MOD_ID);
 
-
-    public static final RegistryObject<Block> TRINKETANVIL = registerBlock
-
-            ("trinketanvil", ()->new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().of(Material.METAL).strength(0.3f).requiresCorrectToolForDrops().dynamicShape()),
-                    MTCreativeTab.MT_TAB);
-
-
-
-
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
+    public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn,CreativeTab);
