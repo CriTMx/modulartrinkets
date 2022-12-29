@@ -1,10 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "modulartrinkets:block/trinketanvil"
-    },
-    "#": {
-      "model": "modulartrinkets:block/trinketanvil"
-    }
+    "facing=north": {"model": "modulartrinkets:block/trinketanvil"},
+    "facing=east": {"model": "modulartrinkets:block/trinketanvil","y": 90},
+    "facing=south": {"model": "modulartrinkets:block/trinketanvil","y": 180},
+    "facing=west": {"model": "modulartrinkets:block/trinketanvil","y": 270}
   }
 }

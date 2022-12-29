@@ -1,10 +1,8 @@
-package com.critmx.modulartrinkets.common.deferredregisters;
+package com.critmx.modulartrinkets.common.registry;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
-import com.critmx.modulartrinkets.common.items.MTCreativeTab;
-import net.minecraft.world.item.CreativeModeTab;
+import com.critmx.modulartrinkets.common.creativetabs.MTCreativeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
