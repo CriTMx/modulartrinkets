@@ -25,9 +25,9 @@ public class BlockRegister {
 
     public static final RegistryObject<Block> TRINKETANVIL = registerBlock
             (
-                    TrinketAnvil.m_getName(),
-                    ()->new TrinketAnvil(TrinketAnvil.m_getProperties()),
-                    TrinketAnvil.m_getTab()
+                    TrinketAnvil.mGetName(),
+                    ()->new TrinketAnvil(TrinketAnvil.mGetProperties()),
+                    TrinketAnvil.mGetTab()
             );
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
