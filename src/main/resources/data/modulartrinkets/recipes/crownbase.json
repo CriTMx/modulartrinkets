@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " i ",
-    "iWi",
-    "iii"
+    " X ",
+    "XWX",
+    "___"
   ],
   "key": {
     "W": {
       "item": "minecraft:white_wool"
     },
-    "i": {
-      "tag": "forge:ingots"
+    "X": {
+      "tag": "forge:stone"
+    },
+    "_": {
+      "tag": "forge:slabs/stone"
     }
   },
   "result": {

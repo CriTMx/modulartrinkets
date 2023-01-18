@@ -16,7 +16,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.18.1-0.0.0.1-alpha'
+version = '1.18.2-0.1.0-alpha'
 group = 'com.critmx.modulartrinkets' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Modular Trinkets'
 
@@ -131,7 +131,7 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.18-38.0.17'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
@@ -152,7 +152,7 @@ jar {
         attributes([
                 "Specification-Title"     : "Modular Trinkets",
                 "Specification-Vendor"    : "CriTMx",
-                "Specification-Version"   : "1.18.1-0.0.0.1-alpha", // We are version 1 of ourselves
+                "Specification-Version"   : "0.1.0 Alpha", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "CriTMx",
