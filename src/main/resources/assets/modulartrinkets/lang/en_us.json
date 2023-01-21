@@ -1,6 +1,10 @@
 {
-  "item.modulartrinkets.crownbase" : "Crown Base",
-  "block.modulartrinkets.trinketanvil": "Trinket Anvil",
+  "item.modulartrinkets.crown_base" : "Crown Base",
+  "item.modulartrinkets.cobalt_ingot": "Cobalt Ingot",
+  "item.modulartrinkets.lead_ingot": "Lead Ingot",
+
+  "block.modulartrinkets.trinket_anvil": "Trinket Anvil",
+
   "itemGroup.mtcreativetab": "Modular Trinkets"
 
 }
