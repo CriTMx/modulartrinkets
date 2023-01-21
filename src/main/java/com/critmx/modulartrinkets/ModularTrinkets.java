@@ -1,7 +1,7 @@
 package com.critmx.modulartrinkets;
 
 import com.critmx.modulartrinkets.common.MTClientSetupClass;
-import com.critmx.modulartrinkets.common.blocks.TrinketAnvil;
+import com.critmx.modulartrinkets.common.events.MTEvents;
 import com.critmx.modulartrinkets.common.registry.BlockRegister;
 import com.critmx.modulartrinkets.common.registry.ItemRegister;
 import net.minecraft.world.level.block.Block;
@@ -42,14 +42,14 @@ public class ModularTrinkets
         eventBus.addListener(this::enqueueIMC);
         eventBus.addListener(this::processIMC);
 
+        eventBus.register(MTEvents.class);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
 
@@ -61,7 +61,6 @@ public class ModularTrinkets
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)
@@ -85,7 +84,6 @@ public class ModularTrinkets
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
             // register a new block here
-            LOGGER.info("HELLO from Register Block");
         }
     }
 }
