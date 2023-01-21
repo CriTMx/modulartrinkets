@@ -9,7 +9,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[38,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="All rights reserved"
+license="MIT License"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -34,11 +34,7 @@ credits="Myself, CriTMx, for making this mod." #optional
 authors="CriTMx" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Modular Trinkets adds many new trinkets/accessories to the game, wearable in Baubles slots, that give you a unique look and feel, while also providing protection against damage and more. There are trinkets like Crowns, Amulets, Chains, Bracelets, Anklets, Belts, Masks and so on.
-
-Each trinket can be handcrafted by you by choosing a base metal as the base material for the trinket. Each base material will have its own Durability Modifier, and Potency Modifier, and can be embedded with gems as per your choice, making the trinkets completely modular.
-
-The mod aims to provide a fun way of dealing with armor accessories, while giving you freedom of choice to craft your trinkets in an optimally personalised manner, and at the same time providing functionality for your adventures.
+Modular Trinkets adds many new trinkets/accessories to the game, wearable in Curios slots, that give you a unique look and feel while also providing protection against damage and more. There are trinkets like Crowns, Amulets, Chains, Bracelets, Anklets, Belts, Masks and so on.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.modulartrinkets]] #optional
