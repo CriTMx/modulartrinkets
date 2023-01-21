@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "builtin/generated",
   "textures":
   {
     "layer0": "modulartrinkets:item/crownbase_layer0",

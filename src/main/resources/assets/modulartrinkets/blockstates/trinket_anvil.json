@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "modulartrinkets:block/trinket_anvil"},
+    "facing=east": {"model": "modulartrinkets:block/trinket_anvil","y": 90},
+    "facing=south": {"model": "modulartrinkets:block/trinket_anvil","y": 180},
+    "facing=west": {"model": "modulartrinkets:block/trinket_anvil","y": 270}
+  }
+}

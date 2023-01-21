@@ -10,13 +10,13 @@
       "item": "minecraft:obsidian"
     },
     "i": {
-      "tag": "minecraft:iron_ingot"
+      "tag": "forge:ingots/iron"
     },
     "I": {
-      "item": "minecraft:iron_block"
+      "tag": "forge:storage_blocks/iron"
     }
   },
   "result": {
-    "item": "modulartrinkets:trinketanvil"
+    "item": "modulartrinkets:trinket_anvil"
   }
 }
