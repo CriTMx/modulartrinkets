@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 public class MTTags {
 
     public static class Items {
-        public static final TagKey<Item> STONE_ROD = forgeTag("rods/stone");
-
+        public static final TagKey<Item> COBALT_INGOT = forgeTag("ingots/cobalt");
+        public static final TagKey<Item> LEAD_INGOT = forgeTag("ingots/lead");
         private static TagKey<Item> forgeTag(String name){
             return ItemTags.create(new ResourceLocation("forge",name));
         }
