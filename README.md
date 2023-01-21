@@ -13,7 +13,7 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 
 **<u>About Project Concept:</u>**
 
-- Modular Trinkets adds many new trinkets/accessories to the game, wearable in Baubles slots, that give the player a unique look and feel, while also providing protection against damage and more. There are trinkets like Crowns, Amulets, Chains, Bracelets, Anklets, Belts, Masks and so on.
+- Modular Trinkets adds many new trinkets/accessories to the game, wearable in Curios slots, that give the player a unique look and feel, while also providing protection against damage and more. There are trinkets like Crowns, Amulets, Chains, Bracelets, Anklets, Belts, Masks and so on.
 
 - Each trinket can be handcrafted by the player by choosing a base metal as the base material for the trinket. Each base material will have its own Durability Modifier, and Potency Modifier, and can be embedded with gems as per the choice of the player, making the trinkets completely modular.
 
@@ -49,7 +49,7 @@ _(A ✓ (checkmark) indicates a goal that has been fully met. A ⦿ indicates a 
 - Implement automation of texture generation for embedded gems in trinkets.
 - Implement basic armor effects for each trinket.
 - Implement additional armor effects (gem embedding effects) for each gem.
-- Implement Baubles compatibility.
+- Implement Curios compatibility.
 - Connect with other mods to create a universally supported modular trinket crafting.
 - Create a dedicated Trinket Crafting Interface.
 - More coming soon
