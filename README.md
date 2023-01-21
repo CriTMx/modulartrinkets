@@ -42,14 +42,19 @@ A repository for a Minecraft Mod I'm working on, called Modular Trinkets. A huge
 
 **<u>Project Roadmap:</u>**
 
-_(A ✓ (checkmark) indicates a goal that has been fully met. A ⦿ indicates a bug to be fixed in the mentioned goal. Incomplete goal otherwise.) (This section will be regularly updated with more goals, completed goals, bugged goals and so on.)_
+✅ indicates a goal that has been fully met. <br>
+🟠 indicates a partially implemented or buggy feature. <br>
+❌ indicates an unmet goal. 
 
-- ✓ Implement mod base.
-- Implement automation of texture generation for trinkets of varied material bases.
-- Implement automation of texture generation for embedded gems in trinkets.
-- Implement basic armor effects for each trinket.
-- Implement additional armor effects (gem embedding effects) for each gem.
-- Implement Curios compatibility.
-- Connect with other mods to create a universally supported modular trinket crafting.
-- Create a dedicated Trinket Crafting Interface.
-- More coming soon
+- ✅ Implement mod base.
+- 🟠 Implement automation of texture generation for trinkets of varied material bases.
+- ❌ Implement automation of texture generation for embedded gems in trinkets.
+- ❌ Create a dedicated Trinket Crafting Interface.
+- ❌ Implement basic armor effects for each trinket.
+- ❌ Implement additional armor effects (gem embedding effects) for each gem.
+- ❌ Implement JEI compatibility
+- ❌ Implement Curios compatibility.
+- ❌ Connect with other mods' APIs to create an extensively supported modular trinket crafting.
+
+
+More coming soon!
