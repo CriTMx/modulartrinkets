@@ -2,9 +2,18 @@
   "item.modulartrinkets.crown_base" : "Crown Base",
   "item.modulartrinkets.cobalt_ingot": "Cobalt Ingot",
   "item.modulartrinkets.lead_ingot": "Lead Ingot",
+  "item.modulartrinkets.tin_ingot": "Tin Ingot",
+  "item.modulartrinkets.silver_ingot": "Silver Ingot",
+  "item.modulartrinkets.platinum_ingot": "Platinum Ingot",
+  "item.modulartrinkets.haemium_ingot": "Haemium Ingot",
+  "item.modulartrinkets.bronze_ingot": "Bronze Ingot",
+  "item.modulartrinkets.brass_ingot": "Brass Ingot",
+  "item.modulartrinkets.electrum_ingot": "Electrum Ingot",
+  "item.modulartrinkets.invar_ingot": "Invar Ingot",
 
   "block.modulartrinkets.trinket_anvil": "Trinket Anvil",
 
-  "itemGroup.mtcreativetab": "Modular Trinkets"
+  "itemGroup.mtcreativetab": "Modular Trinkets",
+  "itemGroup.mtmaterialstab": "Modular Trinkets: Materials"
 
 }

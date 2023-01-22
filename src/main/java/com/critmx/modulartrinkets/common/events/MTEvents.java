@@ -12,6 +12,11 @@ import net.minecraftforge.fml.common.Mod;
 public class MTEvents {
     @SubscribeEvent
     public static void registerItemColors(ColorHandlerEvent.Item event) {
-        event.getItemColors().register(new MTItemColors(), ItemRegister.COBALT_INGOT.get(),ItemRegister.LEAD_INGOT.get());
+        event.getItemColors().register(new MTItemColors(),
+                ItemRegister.COBALT_INGOT.get(),ItemRegister.LEAD_INGOT.get(),ItemRegister.TIN_INGOT.get(),
+                ItemRegister.SILVER_INGOT.get(),ItemRegister.PLATINUM_INGOT.get(),ItemRegister.HAEMIUM_INGOT.get(),
+                ItemRegister.BRONZE_INGOT.get(),ItemRegister.BRASS_INGOT.get(),ItemRegister.ELECTRUM_INGOT.get(),
+                ItemRegister.INVAR_INGOT.get()
+        );
     }
 }
