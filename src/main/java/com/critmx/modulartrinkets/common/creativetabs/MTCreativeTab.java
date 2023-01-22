@@ -15,4 +15,11 @@ public class MTCreativeTab
         }
     };
 
+    public static final CreativeModeTab MT_MATERIALS_TAB = new CreativeModeTab("mtmaterialstab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ItemRegister.COBALT_INGOT.get());
+        }
+    };
+
 }
