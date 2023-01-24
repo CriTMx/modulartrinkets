@@ -1,6 +1,8 @@
 package com.critmx.modulartrinkets.common.registry;
 
 import com.critmx.modulartrinkets.ModularTrinkets;
+import com.critmx.modulartrinkets.common.blocks.MetalBlockAbstract;
+import com.critmx.modulartrinkets.common.blocks.MetalBlocks;
 import com.critmx.modulartrinkets.common.blocks.TrinketAnvil;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,18 +19,17 @@ public class BlockRegister {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ModularTrinkets.MOD_ID);
 
-
-    /*public static final RegistryObject<Block> TRINKETANVIL = registerBlock
-
-            ("trinketanvil", ()->new Block(BlockBehaviour.Properties.of(Material.METAL).strength(0.3f).requiresCorrectToolForDrops().dynamicShape()),
-                    MTCreativeTab.MT_TAB);*/
-
-    public static final RegistryObject<Block> TRINKETANVIL = registerBlock
-            (
+    public static final RegistryObject<Block> TRINKET_ANVIL = registerBlock(
                     TrinketAnvil.mGetName(),
-                    ()->new TrinketAnvil(TrinketAnvil.mGetProperties()),
+                    ()-> new TrinketAnvil(TrinketAnvil.mGetProperties()),
                     TrinketAnvil.mGetTab()
             );
+
+    public static final RegistryObject<Block> COBALT_BLOCK = registerBlock(
+            MetalBlocks.CobaltBlock.mGetName(),
+            ()-> new MetalBlocks.CobaltBlock(MetalBlockAbstract.mGetProperties()),
+            MetalBlockAbstract.mGetTab()
+    );
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab CreativeTab)
     {

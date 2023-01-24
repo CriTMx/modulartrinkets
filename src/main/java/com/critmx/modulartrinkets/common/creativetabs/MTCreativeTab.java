@@ -11,7 +11,7 @@ public class MTCreativeTab
     public static final CreativeModeTab MT_TAB = new CreativeModeTab("mtcreativetab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(BlockRegister.TRINKETANVIL.get());
+            return new ItemStack(BlockRegister.TRINKET_ANVIL.get());
         }
     };
 

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north":
+    {
+      "model": "modulartrinkets:block/cobalt_block"
+    },
+    "facing=east":{
+      "model": "modulartrinkets:block/cobalt_block",
+      "y": 90
+    },
+    "facing=south":{
+      "model": "modulartrinkets:block/cobalt_block",
+      "y": 180
+    },
+    "facing=west":{
+      "model": "modulartrinkets:block/cobalt_block",
+      "y": 270
+    }
+  }
+}

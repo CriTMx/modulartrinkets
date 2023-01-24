@@ -7,6 +7,6 @@ import net.minecraft.client.renderer.RenderType;
 public class MTClientSetupClass {
 
     public static void renderAllTranslucent() {
-        ItemBlockRenderTypes.setRenderLayer(BlockRegister.TRINKETANVIL.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockRegister.TRINKET_ANVIL.get(), RenderType.translucent());
     }
 }
